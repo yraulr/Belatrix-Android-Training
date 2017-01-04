@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.raul.lesson1exercises.MainActivity">
+
+    <TextView
+        android:id="@+id/first_exercise"
+        style="@style/ExerciseStyle"
+        android:background="@color/first_exercise_background"
+        android:text="@string/first_exercise" />
+
+    <TextView
+        android:id="@+id/second_exercise"
+        style="@style/ExerciseStyle"
+        android:background="@color/second_exercise_background"
+        android:text="@string/second_exercise" />
+
+    <TextView
+        android:id="@+id/third_exercise"
+        style="@style/ExerciseStyle"
+        android:background="@color/third_exercise_background"
+        android:text="@string/third_exercise" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second_exercise"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raul.lesson1exercises.SecondExerciseActivity">
+
+    <EditText
+        android:id="@+id/first_number_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginRight="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen16"
+        android:hint="@string/first_number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/operator_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_number_field"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginRight="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen16"
+        android:hint="@string/operator"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/second_number_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/operator_field"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginRight="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen16"
+        android:hint="@string/second_number"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen42"
+        android:layout_below="@+id/second_number_field"
+        android:layout_marginTop="@dimen/dimen16"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dimen16"
+        android:textSize="@dimen/textSize16"
+        tools:text="@string/result" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen16"
+        android:text="@string/submit" />
+
+</RelativeLayout>

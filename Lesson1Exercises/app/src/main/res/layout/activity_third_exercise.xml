@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_third_exercise_acitivty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raul.lesson1exercises.ThirdExerciseActivity">
+
+    <EditText
+        android:id="@+id/lines_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginRight="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen16"
+        android:hint="@string/lines"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/show_lines_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lines_field"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen16"
+        android:text="@string/show_lines" />
+
+    <TextView
+        android:id="@+id/lines_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show_lines_button"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen16"
+        android:text="@string/lines"
+        android:textSize="@dimen/textSize16" />
+
+</RelativeLayout>

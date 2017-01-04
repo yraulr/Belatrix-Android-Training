@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Lesson 1 Exercises</string>
+    <string name="first_exercise">First exercise</string>
+    <string name="second_exercise">Second exercise</string>
+    <string name="third_exercise">Third exercise</string>
+
+    <!-- First exercise -->
+    <string name="get_month">Get Month</string>
+    <string name="number">Month number</string>
+    <string name="month">Month</string>
+    <string name="month_result">Month: %s</string>
+    <string name="wrong_number">Wrong number</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <!-- Second exercise -->
+    <string name="first_number">First number</string>
+    <string name="second_number">Second number</string>
+    <string name="operator">Operator</string>
+    <string name="result">Result: %s</string>
+    <string name="submit">Submit</string>
+    <string name="missing_data">Please fill all the fields</string>
+
+    <!-- Third exercise -->
+    <string name="show_lines">Show Lines</string>
+    <string name="lines">Lines</string>
+    <string name="line_number">Line: %d</string>
+
+</resources>

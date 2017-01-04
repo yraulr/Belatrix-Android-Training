@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first_exercise"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raul.lesson1exercises.FirstExerciseActivity">
+
+    <EditText
+        android:id="@+id/month_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginRight="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen16"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/month_field"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginRight="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen16"
+        android:text="@string/month"
+        android:textSize="@dimen/textSize16" />
+
+    <Button
+        android:id="@+id/get_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/month"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginRight="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen16"
+        android:text="@string/get_month" />
+
+</RelativeLayout>
